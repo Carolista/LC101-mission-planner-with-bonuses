@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CrewComponent implements OnInit {
 
     crew: object[] = [];
+    selected: any = false; // newer version wouldn't compile without this
 
     candidates: object[] = [
         {name: "Sally Ride", photo: 'https://handlers.education.launchcode.org/static/images/sally-ride.jpg'},
