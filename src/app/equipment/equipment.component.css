@@ -1,0 +1,25 @@
+.displayBox {
+    height: 275px;
+    width: auto;
+}
+
+button {
+    background-color: rgb(151, 206, 89);
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;   
+}
+
+h3 {
+    text-align: center;
+}
+
+button:disabled, button[disabled] {
+    background-color: rgb(209, 209, 209);
+}
+
+.nearMaxMass {
+    font-weight: bold;
+    color: rgb(194, 56, 32)
+}
